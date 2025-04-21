@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_BASE = "https://toscanisoft-backend.great-site.net/api"; // Change ce lien avec ton vrai domaine
+const API_BASE = "http://toscanisoft-backend.great-site.net/api"; // Change ce lien avec ton vrai domaine
 
 function App() {
   const [clients, setClients] = useState([]);
